@@ -73,4 +73,10 @@ body {
 }
 
 /* end of sidebar */
+
+/* navigation */
+.navigation {
+  margin-left: 8rem;
+  position: fixed;
+}
 /* end of navbar */
