@@ -39,6 +39,26 @@ body {
 .line-1,
 .line-3 {
   width: 1.8rem;
+  transition: width 0.3s;
+}
+
+.menu-icon:hover .line {
+  width: 2.5rem;
+}
+
+.social-icon-list {
+  list-style: none;
+  padding: 0;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.social-link {
+  font-size: 2rem;
+  color: #777;
 }
 
 /* end of sidebar */
