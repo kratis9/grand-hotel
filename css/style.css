@@ -25,6 +25,8 @@ body {
 }
 
 .menu-icon {
+  margin-top: 3rem;
+  cursor: pointer;
 }
 
 .line {
