@@ -59,6 +59,17 @@ body {
 .social-link {
   font-size: 2rem;
   color: #777;
+  transition: color 0.3s;
+}
+
+.social-link:hover {
+  color: #deaa86;
+}
+
+.year {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #555;
 }
 
 /* end of sidebar */
