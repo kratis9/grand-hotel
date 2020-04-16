@@ -9,3 +9,35 @@ body {
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
+/* end of common styles */
+
+/* navbar */
+/* sidebar */
+.sidebar {
+  width: 8rem;
+  height: 100%;
+  background-color: #eee;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-icon {
+}
+
+.line {
+  height: 0.2rem;
+  width: 2.5rem;
+  background-color: #222;
+  margin-bottom: 0.6rem;
+}
+
+.line-1,
+.line-3 {
+  width: 1.8rem;
+}
+
+/* end of sidebar */
+/* end of navbar */
