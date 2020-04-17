@@ -119,4 +119,11 @@ body {
 .navigation-search-input:focus {
   background-color: rgba(0, 0, 0, 0.1);
 }
+
+.navigation-search-btn {
+  border: none;
+  background-color: transparent;
+  color: #deaa86;
+  font-size: 1.7rem;
+}
 /* end of navbar */
