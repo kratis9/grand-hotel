@@ -102,6 +102,10 @@ body {
   text-align: center;
 }
 
+.navigation-search {
+  position: relative;
+}
+
 .navigation-search-input {
   width: 30rem;
   padding: 1rem 2rem;
@@ -125,5 +129,14 @@ body {
   background-color: transparent;
   color: #deaa86;
   font-size: 1.7rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
 }
+
+.navigation-search-btn:focus {
+  outline: none;
+}
+
 /* end of navbar */
