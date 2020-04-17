@@ -78,5 +78,45 @@ body {
 .navigation {
   margin-left: 8rem;
   position: fixed;
+  width: 40em;
+  height: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(34, 32, 41, 1),
+      rgba(34, 32, 41, 0.8)
+    ),
+    url(../img/nav-bg.jpeg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-heading {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  color: #deaa86;
+  text-align: center;
+}
+
+.navigation-search-input {
+  width: 30rem;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.6rem;
+  color: #deaa86;
+  letter-spacing: 0.1rem;
+  outline: none;
+  border: 0.1rem solid #555;
+  border-radius: 10rem;
+  transition: background-color 0.3s;
+}
+
+.navigation-search-input:focus {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 /* end of navbar */
