@@ -223,3 +223,10 @@ body {
 /* end of navbar */
 
 /* header */
+.header {
+  margin-left: 8rem;
+  height: 100vh;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(../img/header-1.jpeg) no-repeat center;
+  background-size: cover;
+}
