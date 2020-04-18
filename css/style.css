@@ -208,6 +208,7 @@ body {
 
 .checkbox:checked ~ .sidebar .line-1 {
   transform: rotate(-405deg) translate(-5px, 6px);
+  width: 2.5rem;
 }
 
 .checkbox:checked ~ .sidebar .line-2 {
@@ -216,5 +217,9 @@ body {
 
 .checkbox:checked ~ .sidebar .line-3 {
   transform: rotate(405deg) translate(-5px, -6px);
+  width: 2.5rem;
 }
+/* end of navigation */
 /* end of navbar */
+
+/* header */
