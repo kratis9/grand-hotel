@@ -406,3 +406,19 @@ body {
 }
 
 /* end of about us */
+
+/* common header */
+.common-header {
+  padding: 5rem;
+  text-align: center;
+  color: #b85d1c;
+}
+
+/* end of common header */
+
+/* rooms */
+.rooms {
+  margin-left: 8rem;
+}
+
+/* end of rooms */
