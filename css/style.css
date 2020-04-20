@@ -444,4 +444,27 @@ body {
   width: 100%;
 }
 
+.room-card-content {
+  color: #ddd;
+  padding: 2rem;
+}
+
+.room-card-heading {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.room-card-paragraph {
+  font-size: 1.5rem;
+  color: #777;
+}
+
+.room-price {
+  font-size: 5rem;
+  font-weight: 300;
+  text-align: right;
+  margin: 0;
+}
+
 /* end of rooms */
